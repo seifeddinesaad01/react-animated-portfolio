@@ -57,7 +57,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Seif`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Front-end Developer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p> I’m a Frontend Developer with a strong understanding of Responsive Web Design and have demonstrated past work experience working in the frontend development industry.</p>
+                  <p> I’m a Frontend Developer with a strong understanding of Responsive Web Design and have demonstrated past work experience working in the frontend development industry.
+
+I am Highly Skilled in HTML, CSS, JavaScript, SAAS, React JS,Typescript,Jest Responsive Web Design, BEM, Email Templates development. I possess good written and oral communication skills, which enable me to explain complex web app issues in easy-to-understand terms.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
