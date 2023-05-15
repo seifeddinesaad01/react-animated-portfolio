@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/project-img.png";
+import projImg2 from "../assets/img/project-img-2.png";
+import projImg3 from "../assets/img/project-img-3.png";
+import projImg4 from "../assets/img/image4.png";
+import projImg5 from "../assets/img/omnifood.png";
+import projImg6 from "../assets/img/ar-shakir.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,35 +14,42 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Youtube Clone",
+      description: "React Js",
       imgUrl: projImg1,
+      link: 'https://github.com/seifeddinesaad01/youtube-clone'
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "TrailHive landing Page",
+      description: "React Ts & SCSS",
       imgUrl: projImg2,
+      link: "https://github.com/seifeddinesaad01/TrailHive"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Admin Dashboard",
+      description: "React Js & CSS",
       imgUrl: projImg3,
+      link: "https://github.com/seifeddinesaad01/react-admin-dashboard/tree/master"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Gaming App",
+      description: "React Js & CSS",
+      imgUrl: projImg4,
+      link: "https://github.com/seifeddinesaad01/Gaming-App"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Food App Landing Page",
+      description: "HTML && CSS",
+      imgUrl: projImg5,
+      link: "https://github.com/seifeddinesaad01/omnifood"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "AR Shakir Landing Page",
+      description: "HTML && CSS",
+      imgUrl: projImg6,
+      link: "https://github.com/seifeddinesaad01/AR-sahkir"
     },
+    
   ];
 
   return (
