@@ -92,7 +92,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #151515a2;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -234,10 +234,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-bg.png'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 110vh;
 }
 .banner .tagline {
   font-weight: 700;
@@ -306,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
+  background: #1515156e;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -344,7 +345,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.907);
 }
 .project h2 {
 	font-size: 45px;
