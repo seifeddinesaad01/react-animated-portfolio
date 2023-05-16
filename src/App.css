@@ -238,7 +238,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 110vh;
+  /* height: 110vh; */
 }
 .banner .tagline {
   font-weight: 700;
