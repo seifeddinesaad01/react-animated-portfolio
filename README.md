@@ -1,2 +1,2 @@
-# My Personal Portfolio
+# Personal Portfolio
 ![Portfolio](./public/overview.png "Optional Title")
